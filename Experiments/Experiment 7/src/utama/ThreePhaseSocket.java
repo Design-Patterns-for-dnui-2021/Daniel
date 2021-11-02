@@ -1,6 +1,6 @@
 package utama;
 
 public interface ThreePhaseSocket {		
-	public void connect();
-	public void disconnect();
+	public abstract void connect();
+	public abstract void disconnect();
 }
